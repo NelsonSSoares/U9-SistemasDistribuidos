@@ -131,6 +131,23 @@ foreach ($array as $value) {
     echo $value . PHP_BR;
 }
 
+// ARRAYS ASSOCIATIVOS
+// ['key' => value];
+
+$aluno = [
+    'ra' => 123,
+    'name' => 'Nelson'
+    'mensalidade' => 299.00,
+];
+
+//echo "<pre>";
+//print_r($aluno);
+//echo "</pre>";
+
+foreach ($aluno as $key => $value) {
+    echo $key . ':' . $value . PHP_BR; 
+}
+
 
 
 ?>
